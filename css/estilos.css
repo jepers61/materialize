@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+  background-image: url(../img/lago2.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size:cover;
+}
+
+.cabecera h4{
+	color: white;
+}
+.menu{
+	text-align:right;
+	padding: 1rem;
+}
+.imagen-1{
+	padding: 1rem;
+}
+/*
+.fondo-principal{
+	min-height: 80rem;
+	border: 1px solid black;
+}*/
+.logo{
+	width: 12rem;
+	height: 10rem;
+	padding: 0.5rem;
+}
+.pinguinos{
+	width: 100%;
+}
+.glaciar{
+	width: 100%;
+}
+.dino{
+	width: 100%;
+}
+.gruta{
+	width: 100%;
+}
+.familia{
+	width: 100%;
+}
+.cascada{
+	width: 100%;
+}
+.footer-1{
+	background-color: white;
+}
+.footer-1 img{
+	width: 100%;
+	height: 100%;
+	padding: 2px;
+}
+.footer-1 h4{
+	text-align: center;
+}
+.footer-1 p{
+	text-align: justify;
+	padding: 10px;
+}
+.footer-2{
+	background-color: white;
+}
+.footer-2 img{
+	width: 60%;
+	height: 70%;
+	padding-top: 10px;
+	display: block;
+	margin: auto;
+	border-radius: 45%;
+}
+.footer-2 h5{
+	text-align: center;
+}
+.footer-2 p{
+	font-size: 0.8em;
+	text-align: center;
+}
+.comentario{
+	background-color: #1E11FF;
+}
+.input-field label {
+   color: white;
+}
+
+.input-field input[type=text]:focus + label {
+   color: #26A69A;
+}
+
+.input-field input[type=text]:focus {
+   border-bottom: 1px solid #26A69A;
+   box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=email]:focus {
+   border-bottom: 1px solid #26A69A;
+   box-shadow: 0 1px 0 0 #000;
+}
+.input-field textarea:focus {
+   border-bottom: 1px solid #26A69A;
+   box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=text].validate {
+   border-bottom: 1px solid #26A69A;
+   box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field .prefix.active {
+   color:#26A69A;
+}
+div[class*="izquierda"]{
+ padding: 1px 1px 1px 1px;
+}
+div[class*="centro"]{
+ padding: 1px 1px 1px 1px;
+}
+div[class*="derecha"]{
+ padding: 1px 1px 1px 1px;
+}
